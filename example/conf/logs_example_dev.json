@@ -1,0 +1,23 @@
+{
+  "env": "dev",
+  "log_config": {
+    "env": "prod",
+    "log_dir": "logs",
+    "log_file_name": "access.log",
+    "log_server_ip": "127.0.0.1",
+    "log_server_port": 12201,
+    "mail_bot": {
+      "name": "NaNaSe On Call (Test)",
+      "smtp_server_ip": "smtp.qq.com",
+      "smtp_server_port": 587,
+      "from_mail_address": "something@qq.com",
+      "to_mail_address_list": [
+        "something@qq.com",
+        "something@qq.com"
+      ],
+      "username": "something@qq.com",
+      "password": "something",
+      "enable": false
+    }
+  }
+}
